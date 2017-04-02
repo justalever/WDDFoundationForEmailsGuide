@@ -1,0 +1,15 @@
+table.button {
+	table td a {
+		font-family: $header-font-family;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding: 0 20px;
+		height: 48px;
+		line-height: 48px;
+		border: none;
+		&:hover {
+			border: none;
+		}
+	}
+}
