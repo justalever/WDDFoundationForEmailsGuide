@@ -1,11 +1,14 @@
 .footer-social-links {
-	text-align: center;
+
  	table.social-menu {
- 		text-align: center;
+
 		table {
 			text-align: center;
 			width: 60%;
 			margin: 0 auto;
+			@media only screen and (max-width: #{$global-breakpoint}) {
+				width: 100%;
+			}
 		}
 		.menu-item {
 			img {
@@ -16,7 +19,7 @@
 }
 .footer-cta {
 	text-transform: uppercase;
-	font-size:15px;
+	font-size:14px;
 	letter-spacing:0.05em;
 	text-decoration: underline;
 }
